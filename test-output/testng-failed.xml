@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assesment_Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Top_Page_Test(failed)">
+    <classes>
+      <class name="com.kinetik.Assesment_Automation_Testing.Test.Home_Page">
+        <methods>
+          <include name="HomePageTitleVerify"/>
+          <include name="ProductCart"/>
+        </methods>
+      </class> <!-- com.kinetik.Assesment_Automation_Testing.Test.Home_Page -->
+    </classes>
+  </test> <!-- Top_Page_Test(failed) -->
+</suite> <!-- Failed suite [Assesment_Test] -->
