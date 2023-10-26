@@ -8,6 +8,13 @@
 		</classes>
 	</test>
 	
+		<test name="Sign_up">
+		<classes>
+			<class
+				name="com.kinetik.Assesment_Automation_Testing.Test.SignUp_Page" />
+		</classes>
+	</test>
+	
 
 
 </suite>

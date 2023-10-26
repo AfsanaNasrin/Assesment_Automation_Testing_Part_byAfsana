@@ -11,4 +11,13 @@
       </class> <!-- com.kinetik.Assesment_Automation_Testing.Test.Home_Page -->
     </classes>
   </test> <!-- Top_Page_Test(failed) -->
+  <test thread-count="5" name="Sign_up(failed)">
+    <classes>
+      <class name="com.kinetik.Assesment_Automation_Testing.Test.SignUp_Page">
+        <methods>
+          <include name="MoveToSignUpPage"/>
+        </methods>
+      </class> <!-- com.kinetik.Assesment_Automation_Testing.Test.SignUp_Page -->
+    </classes>
+  </test> <!-- Sign_up(failed) -->
 </suite> <!-- Failed suite [Assesment_Test] -->
