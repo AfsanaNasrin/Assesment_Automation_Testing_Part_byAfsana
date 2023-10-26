@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Assesment_Test" class="navigator-link">
-              <span class="suite-name border-failed">Assesment_Test</span>
+              <span class="suite-name border-passed">Assesment_Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Assesment_Test" class="hide-methods failed suite-Assesment_Test"> (hide)</a> <!-- hide-methods failed suite-Assesment_Test -->
-                      <a href="#" panel-name="suite-Assesment_Test" class="show-methods failed suite-Assesment_Test"> (show)</a> <!-- show-methods failed suite-Assesment_Test -->
-                    </span>
-                    <div class="method-list-content failed suite-Assesment_Test">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Assesment_Test" title="com.kinetik.Assesment_Automation_Testing.Test.Home_Page" class="method navigator-link" hash-for-method="ProductCart">ProductCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Assesment_Test -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Assesment_Test" title="com.kinetik.Assesment_Automation_Testing.Test.Home_Page" class="method navigator-link" hash-for-method="HomePageTitleVerify">HomePageTitleVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Assesment_Test" title="com.kinetik.Assesment_Automation_Testing.Test.Home_Page" class="method navigator-link" hash-for-method="ProductCart">ProductCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Assesment_Test -->
@@ -133,40 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Assesment_Test" class="panel Assesment_Test">
-          <div class="suite-Assesment_Test-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.kinetik.Assesment_Automation_Testing.Test.Home_Page</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ProductCart">
-                  </a> <!-- ProductCart -->
-                  <span class="method-name">ProductCart</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=118.0.5993.118)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WINDOWS-P98J5OV&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0554b50d80eba44d373cef6ee24da977
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.kinetik.Assesment_Automation_Testing.Test.Home_Page.ProductCart(Home_Page.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Assesment_Test-class-failed -->
           <div class="suite-Assesment_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -178,6 +135,13 @@ Session ID: 0554b50d80eba44d373cef6ee24da977
                   <a name="HomePageTitleVerify">
                   </a> <!-- HomePageTitleVerify -->
                   <span class="method-name">HomePageTitleVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductCart">
+                  </a> <!-- ProductCart -->
+                  <span class="method-name">ProductCart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,16 +202,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'HomePageTitleVerify')
 data.setCell(0, 2, 'com.kinetik.Assesment_Automation_Testing.Test.Home_Page')
-data.setCell(0, 3, 30070);
+data.setCell(0, 3, 38704);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ProductCart')
 data.setCell(1, 2, 'com.kinetik.Assesment_Automation_Testing.Test.Home_Page')
-data.setCell(1, 3, 47);
+data.setCell(1, 3, 16836);
 window.suiteTableData['Assesment_Test']= { tableData: data, tableDiv: 'times-div-Assesment_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-Assesment_Test">
               </div> <!-- times-div-Assesment_Test -->
             </div> <!-- times-div -->
@@ -279,10 +243,8 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">ProductCart</span>
-                <span class="method-start">30074 ms</span>
+                <span class="method-start">38707 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

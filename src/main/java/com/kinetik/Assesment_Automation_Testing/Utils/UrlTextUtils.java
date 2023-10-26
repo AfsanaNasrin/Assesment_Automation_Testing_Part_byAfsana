@@ -11,6 +11,7 @@ public class UrlTextUtils {
 		public static class Text{
 			
 			public static final String TextHomepageTitle="Automation Exercise";
+			public static final String CartpageTitle="Automation Exercise - Checkout";
 		}
 
 }
